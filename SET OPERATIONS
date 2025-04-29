@@ -1,0 +1,12 @@
+E={0,}
+N={0,}
+m=int(input("Enter the number of elements in the set: "))
+for i in range(0,m):
+    E.add(int(input("enter the elements: ")))
+n=int(input("Enter the number of elements in the set: "))
+for i in range(0,n):
+    N.add(int(input("enter the elements: ")))
+print("Union of E and N is", E | N)
+print("Intersection of E and N is", E & N)
+print("Difference of E and N is", E - N)
+print("Symmetric difference of E and N is", E ^ N)
